@@ -1,0 +1,11 @@
+[package]
+name = "dummymath"
+version = "0.1.0"
+authors = ["Nicolas Frankel <nicolas@frankel.ch>"]
+edition = "2018"
+
+[dependencies]
+jni = "0.19.0"
+
+[lib]
+crate_type = ["cdylib"]
