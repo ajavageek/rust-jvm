@@ -17,6 +17,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        args = new String[2];
+        args[0] = "double";
+        args[1] = "2";
         if (args.length == 0) {
             throw new IllegalArgumentException("You must provide a method and its parameters");
         }
